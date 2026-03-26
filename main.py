@@ -254,7 +254,7 @@ def onStep(app):
             app.hitObstacleX=True
         
     
-        
+    
     if app.obstacleRY<app.ballY+5<app.obstacleRY+app.obstacleHeight:
         if app.obstacleRX<app.ballX<app.obstacleRX+app.obstacleWidth:
             if app.countHit!=1:
