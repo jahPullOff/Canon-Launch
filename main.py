@@ -209,8 +209,10 @@ def amountOfStars(app):
     else:
         app.star3='grey'
     
-    if app.ballY-5>400 and app.starsOpacity!=100:
-        app.starsOpacity+=2
+    if app.ballY-5>400 and app.starsOpacity<99:
+        app.starsOpacity+=1
+    elif app.starsOpacity>=99:
+        app.starsOpacity=100
 
         
 def horizantalMovement(app):
