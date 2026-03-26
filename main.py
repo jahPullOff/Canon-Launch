@@ -268,6 +268,7 @@ def onStep(app):
                 app.hitObstacleY=False
                 
     if 500<=app.ballX+5<=525:
+        # WHATS UP
         #if app.ballY+5==-1*(app.ballX+5)+app.b:
             #app.velocityY=app.velocityX
             #app.velocityX=0
