@@ -271,7 +271,7 @@ def onStep(app):
             else:
                 app.hitObstacleY=False
                 
-    if 500<app.ballX+5<525:
+    if 500<app.ballX<525:
         # WHATS UP ## ILIKE
         #if app.ballY+5==-1*(app.ballX+5)+app.b:
             #app.velocityY=app.velocityX
