@@ -97,7 +97,7 @@ def redrawAll(app):
     drawLabel(app.inputPowerPercentage*100//1,160,360,fill='white')
     #directions to reset if you lose or win
     if app.starsOpacity==100 or app.starsOpacity==99:
-        drawLabel("press 'r' to restart",500,100,fill='white')
+        drawLabel("press 'r' to restart",300,100,fill='white')
     
 def onMouseDrag(app,mouseX,mouseY):
     if 377<mouseY<387:
