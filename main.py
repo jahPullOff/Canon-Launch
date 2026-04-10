@@ -286,8 +286,8 @@ def onStep(app):
                 app.time=0
                 app.countHit=1
      
-            
-        
+        print(app.ballY)    
+        print(app.ballX)
         print(app.velocityY)  
         
     
